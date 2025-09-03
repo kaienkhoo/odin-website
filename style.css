@@ -121,9 +121,25 @@ header {
 }
 
 
-.quote {
+.quote-container {
+    padding: 100px 340px;
     background-color: #E5E7EB;
+    font-weight: 300
 }
+
+.quote-container .quote {
+    font-size: 36px;
+    font-style: italic
+}
+
+.quote-container .author {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: right;
+}
+
+
 
 footer {
     display: flex;
