@@ -97,7 +97,7 @@ header {
     margin-bottom: 100px;
     gap: 60px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .container .card {
@@ -114,6 +114,7 @@ header {
     height: 160px;
     border: 3px solid #3882F6;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 .card p {
