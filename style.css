@@ -57,7 +57,7 @@ header {
 
 .hero-text p {
     color: #E5E7EB;
-    margin-top: 12px;
+    margin-top: 20px;
 }
 
 .hero-text button {
@@ -67,14 +67,23 @@ header {
     font-size: 18px;
     color: #F9FAF8;
     background-color: #3882F6;
-    margin-top: 12px;
+    margin-top: 20px;
 }
 
 
 .hero img {
-    width: 500px;
-    height: 250px;
-    border: 1px solid white;
+    width: 600px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.hero img:hover,
+.hero button:hover,
+.card img:hover,
+.call-to-action button:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
 }
 
 .information {
@@ -102,7 +111,7 @@ header {
 
 .container .card {
     display: flex;
-    width: 160px;
+    width: 275px;
     text-align: center;
     flex-direction: column;
     justify-content: center;
@@ -110,15 +119,16 @@ header {
 }
 
 .card img {
-    width: 160px;
-    height: 160px;
-    border: 3px solid #3882F6;
+    width: 275px;
+    height: 275px;
     border-radius: 8px;
     object-fit: cover;
 }
 
+
+
 .card p {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 
@@ -152,7 +162,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 120px;
+    padding: 50px 100px;
     background-color: #3882F6;
     border-radius: 8px;
 }
@@ -162,7 +172,8 @@ header {
 }
 
 .call-to-action p {
-    margin-top: 4px;
+    margin-top: 8px;
+    width: 500px;
     font-weight: 200;
 }
 
